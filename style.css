@@ -147,7 +147,9 @@ font-size: 30px;
   object-fit: cover;
   width: 100%;
   max-height: 40vh;
- border: 5px solid navy;
+  border-top: 5px solid navy;
+  border-bottom: 5px solid navy;
+
 }
 
 
