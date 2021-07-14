@@ -2,12 +2,13 @@
 
 :root{
   --border-width: 5px;
+ 
 }
 
 *{
   margin: 0px;
   padding: 0px;
-  background-color: cornflowerblue;
+ 
 }
 
 /* header  and navigation*/
@@ -17,8 +18,9 @@ header{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background:cornflowerblue;
+  background: linear-gradient(90deg, rgb(28, 28, 133) 0%, rgb(145, 145, 197) 100%);
 }
+
 
 /* placeholder profile pic or avatar */
 header img{
@@ -34,17 +36,19 @@ header img:hover {
 
 h1{
   font-size: 75px;
-  color:purple;
+  color: black;
   text-align: left;
-  font-family: monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li{
   display: inline-block;
   flex-grow: 1;
   text-align: center;
-  border-left: var(--border-width) solid navy; 
+  border-left: var(--border-width) solid navy;  
   padding: 0px 10px;
+  font-weight: bold;
+  
 }
 
 li:last-child{
@@ -56,6 +60,7 @@ nav{
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0px 10px;
+  color: aliceblue;
 }
 
 
@@ -64,6 +69,8 @@ nav{
 main{
   display:flex;
   flex-direction: column;
+  background: linear-gradient(90deg, rgb(145, 145, 197) 0%, rgb(28, 28, 133) 100%);
+ 
 }
 
 
@@ -107,7 +114,7 @@ main{
 }
 .links {
 
-color:purple;
+color:black;
 font-size: 30px;
 
 
@@ -117,7 +124,7 @@ font-size: 30px;
 /* boxes */
 .box p{
 
-  color:purple;
+  color:black;
   font-size: 30px;  
   padding-left: 15px;
 }
@@ -138,7 +145,7 @@ font-size: 30px;
 .box img {
   object-fit: cover;
   width:80%;
-  border: 15px solid navy;
+  border: 15px navy;
 }
 
 /* main project image */
@@ -179,12 +186,12 @@ text-align: center;
 
 /* aside */
 .aside {
- color:purple;
+ color:black;
 
 }
 .about-title {
 
-  color: purple;
+  color: black;
 }
 
 
